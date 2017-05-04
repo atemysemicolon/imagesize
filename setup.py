@@ -34,14 +34,14 @@ setup(
     version='1.0.0',
 
     description='A very simple 4 line code to quickly see image size',
-    long_description=Short code, short description,
+    long_description='Short code, short description',
 
     # The project's main homepage.
-    url='https://github.com/pypa/sampleproject',
+    url='https://github.com/atemysemicolon/imagesize',
 
     # Author details
-    author='The Python Packaging Authority',
-    author_email='pypa-dev@googlegroups.com',
+    author='Prassanna',
+    author_email='atemysemicolon@gmail.com',
 
     # Choose your license
     license='MIT',
@@ -72,7 +72,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='sample setuptools development',
+    keywords='image imagesize scikit-image',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -86,7 +86,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['peppercorn'],
+    install_requires=['scikit-image'],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
@@ -101,7 +101,7 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
-        'sample': ['package_data.dat'],
+        'sample': ['imagesize'],
     },
 
     # Although 'package_data' is the preferred approach, in some case you may
